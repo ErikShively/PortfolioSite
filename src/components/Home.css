@@ -1,0 +1,52 @@
+.home{
+  /* May need to reduce */
+  display: grid;
+  flex:1;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1.5fr 1fr;
+  gap:5px;
+}
+
+.landing{
+  display: grid;
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  row-gap: 5px;
+
+  /* background-color: blueviolet; */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/3;
+  grid-row: 1/3;
+
+  /* background-color: red; */
+  border-bottom: solid 2px #bbb;
+}
+
+.title-text {
+  align-self: flex-end;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  row-gap: 5px;
+  /* background-color: green; */
+}
+
+.landing-btn {
+  width: 8rem;
+  height: 2rem;
+}
