@@ -1,2 +1,3 @@
 # PortfolioSite
-A website to act as an extended resume, made to practice web development
+Still under construction, mostly content.
+A website to act as an extended resume, made to practice web development. 
