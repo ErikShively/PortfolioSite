@@ -7,14 +7,12 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-//This determines how many links of the list will be "Main" links, to be spacially seperated and styled differently
 const link_headers = 1 
 const top_link_names = ["Erik", "About", "Resume", "Contact"]
 const top_link_paths = ["/", "/about", "/resume", "/contact"]
 
 const bot_link_names = ["Contact", "Email", "GitHub", "LinkedIn"]
 const bot_link_paths = ["/contact", "/", "/", "/"]
-//This may be have to be a list of functions to direct the user to the right place
 root.render(
   <React.StrictMode>
     <BrowserRouter>
